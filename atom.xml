@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>夹锌饼干のBlog</title>
+  
+  <subtitle>发现生活中的美好</subtitle>
+  <link href="https://zncookie.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zncookie.github.io/"/>
+  <updated>2021-10-23T14:59:08.649Z</updated>
+  <id>https://zncookie.github.io/</id>
+  
+  <author>
+    <name>夹锌饼干</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于我闲着没事在Android设备上挖矿的这档事</title>
+    <link href="https://zncookie.github.io/2021/10/23/guan-yu-wo-xian-zhao-mei-shi-zai-android-she-bei-shang-wa-kuang-de-zhe-dang-shi/"/>
+    <id>https://zncookie.github.io/2021/10/23/guan-yu-wo-xian-zhao-mei-shi-zai-android-she-bei-shang-wa-kuang-de-zhe-dang-shi/</id>
+    <published>2021-10-23T13:24:50.000Z</published>
+    <updated>2021-10-23T14:59:08.649Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;del&gt;故事还要从袁隆平出生说起&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;众所周知，Android系统底层是Linux内核&lt;br&gt;今天的主角叫做termux&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Termux is a terminal emulator and Linux</summary>
+        
+      
+    
+    
+    
+    <category term="折腾termux" scheme="https://zncookie.github.io/categories/%E6%8A%98%E8%85%BEtermux/"/>
+    
+    
+    <category term="termux" scheme="https://zncookie.github.io/tags/termux/"/>
+    
+  </entry>
+  
+</feed>
