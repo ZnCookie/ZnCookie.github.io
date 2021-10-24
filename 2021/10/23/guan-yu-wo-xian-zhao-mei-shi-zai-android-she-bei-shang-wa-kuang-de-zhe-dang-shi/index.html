@@ -497,6 +497,33 @@ constexpr const int kMinimumDonateLevel = 0;<span aria-hidden="true" class="line
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '7e125fa2ae87b7736faf',
+        clientSecret: '6d2fd2b0b16a43dbd7f7f2f4602b02ff06c67a97',
+        repo: 'Comment',
+        owner: 'ZnCookie',
+        admin: "ZnCookie",
+        id: '2021-10-23T21-24-50',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
 
     
 
