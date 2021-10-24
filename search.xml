@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>给你的旧电脑装上Windows 11——用Dism++绕开微软限制</title>
+      <link href="/2021/10/24/gei-ni-de-jiu-dian-nao-zhuang-shang-windows-11-yong-dism-rao-kai-wei-ruan-xian-zhi/"/>
+      <url>/2021/10/24/gei-ni-de-jiu-dian-nao-zhuang-shang-windows-11-yong-dism-rao-kai-wei-ruan-xian-zhi/</url>
+      
+        <content type="html"><![CDATA[<p>Windows 11正式版已经出来一段时间了，不过当你兴奋地下载好，打算安装体验一番的时候<br><img src="https://raw.githubusercontent.com/ZnCookie/Picture/main/Windows%2011-2021-10-24-13-55-11.png"><br>好家伙，你搁这不给我装呢</p><p>但是其实能运行Win10 x64的设备大部分都可以安装Win11（比如我的戴尔笔记本，处理器Intel i5-4200U，安装时提示不支持Win11但是最后还是装上了）<br>不过既然常规方法不能用，我们就只能使用一些<del>奇淫技巧</del>其他的方法了。</p><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>U盘（大于或等于8G）</li><li>Windows 11镜像文件</li><li><a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases/">Dism++软件本体</a></li></ol><p>首先，你需要将你的U盘制作成PE启动盘，个人推荐用<a href="https://www.wepe.com.cn/">微PE</a><br>教程网上有很多，这边就不再赘述<br>制作完成后将Windows 11镜像文件和Dism++软件本体复制到U盘里</p><h2 id="进入PE"><a href="#进入PE" class="headerlink" title="进入PE"></a>进入PE</h2><p>这一步根据电脑主板型号不同有所差别，建议百度╮(╯▽╰)╭</p><h2 id="用Dism-释放镜像"><a href="#用Dism-释放镜像" class="headerlink" title="用Dism++释放镜像"></a>用Dism++释放镜像</h2><p>打开Dism++，点击左上角的文件 ——》释放镜像<br><img src="https://raw.githubusercontent.com/ZnCookie/Picture/main/Windows%2011-2021-10-24-14-12-25.png"><br>选中ISO镜像文件（或者挂载了虚拟光驱选择sources\install.wim）<br>目标映像选择自己需要的Win11版本，这里显示Win10应该是个Bug<del>（Win11套壳Win10实锤了）</del><br><img src="https://raw.githubusercontent.com/ZnCookie/Picture/main/Windows%2011-2021-10-24-14-12-14.png"><br>不要打开Compact，会蓝屏（黑屏）</p><p>点击“确认”等待完成后重启电脑，Windows 11就安装完了ヽ(✿ﾟ▽ﾟ)ノ</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows 11 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于我闲着没事在Android设备上挖矿的这档事</title>
       <link href="/2021/10/23/guan-yu-wo-xian-zhao-mei-shi-zai-android-she-bei-shang-wa-kuang-de-zhe-dang-shi/"/>
       <url>/2021/10/23/guan-yu-wo-xian-zhao-mei-shi-zai-android-she-bei-shang-wa-kuang-de-zhe-dang-shi/</url>
