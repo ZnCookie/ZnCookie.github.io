@@ -357,7 +357,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    829
+                    781
                 </div>
                 
 
@@ -384,12 +384,12 @@
 </blockquote>
 <p>Termux 是运行在 Android 上的 terminal。不需要root，运行于内部存储（不在SD卡上）。<br>最重要的是，Termux自带了一个包管理器，可以安装许多现代化的开发和系统维护工具。<br>许多在Linux系统上运行的程序都可以十分轻松的移植到Termux里运行。你甚至可以在上面运行QEMU在上面运行Windows（不过很慢）。</p>
 <h2 id="安装Termux"><a href="#安装Termux" class="headerlink" title="安装Termux"></a>安装Termux</h2><p>Termux对系统的要求是Android 7.0及以上，在ARM以及X86设备上都可以运行<br>你可以<a target="_blank" rel="noopener" href="https://f-droid.org/packages/com.termux/" title="点击这里下载">点击这里下载</a></p>
-<p>因为种种原因<del>（为了榨干旧设备）</del>所以我决定在termux上编译运行xmrig来挖门罗币<br>原因：常见主流加密货币（例如比特币、以太坊）因为算法没有针对ASCI矿机进行抵制，从而导致大量算力集中在矿老板手中，个人挖矿收益极低<del>（简单来说就是你算力干不过人家）</del>。<br>而XMR的算法使普通设备也有了挖矿赚取收益的机会（虽然少，但是至少比其他币种可观）</p>
+<p>因为种种原因<del>（为了榨干旧设备）</del>所以我决定在Termux上编译运行xmrig来挖门罗币<br>原因：常见主流加密货币（例如比特币、以太坊）因为算法没有针对ASCI矿机进行抵制，从而导致大量算力集中在矿老板手中，个人挖矿收益极低<del>（简单来说就是你算力干不过人家）</del>。<br>而XMR的算法使普通设备也有了挖矿赚取收益的机会（虽然少，但是至少比其他币种可观）</p>
 <p>为了避免接下来遇到问题，先执行下<code>apt update &amp;&amp; apt upgrade</code></p>
 <h2 id="搭建proot容器"><a href="#搭建proot容器" class="headerlink" title="搭建proot容器"></a>搭建proot容器</h2><p>这里用到了T Moe <a target="_blank" rel="noopener" href="https://github.com/2moe/tmoe-linux" title="项目地址">项目地址</a></p>
 <pre class="line-numbers language-none"><code class="language-none">. &lt;(curl -L gitee.com/mo2/linux/raw/2/2)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>按照提示选择proot容器”-》arm64发行版列表(按照处理器类型不同，也有可能是armel之类的)</p>
-<p>个人推荐用Ubuntu或Debian，其他系统区别主要在安装依赖时需要使用其他的包管理器<br>例如Debian系的使用的是apt，RedHat系的使用的是yum，Arch系的使用的是pacman</p>
+<p>个人推荐用Ubuntu或Debian</p>
 <p>接下来按照提示和自己需求选择，完成后会自动进入proot容器内<br>以后想再次进入可以在termux里执行<code>bash ~/容器选择菜单.sh</code></p>
 <h2 id="克隆项目-amp-安装依赖"><a href="#克隆项目-amp-安装依赖" class="headerlink" title="克隆项目&amp;安装依赖"></a>克隆项目&amp;安装依赖</h2><p>这里用的xmrig是C3Pool矿池修改后的版本，首先安装依赖并将源代码克隆到本地</p>
 <pre class="line-numbers language-none"><code class="language-none">sudo apt-get install git build-essential cmake automake libtool autoconf
