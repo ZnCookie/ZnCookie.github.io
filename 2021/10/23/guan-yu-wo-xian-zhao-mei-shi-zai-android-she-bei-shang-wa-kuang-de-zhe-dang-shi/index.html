@@ -323,8 +323,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/termux/">
-                                <span class="chip bg-color">termux</span>
+                            <a href="/tags/Termux/">
+                                <span class="chip bg-color">Termux</span>
                             </a>
                         
                     </div>
@@ -335,8 +335,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%98%E8%85%BEtermux/" class="post-category">
-                                折腾termux
+                            <a href="/categories/%E6%8A%98%E8%85%BETermux/" class="post-category">
+                                折腾Termux
                             </a>
                         
                     </div>
@@ -357,7 +357,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    836
+                    829
                 </div>
                 
 
@@ -378,11 +378,11 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p><del>故事还要从袁隆平出生说起</del></p>
-<p>众所周知，Android系统底层是Linux内核<br>今天的主角叫做termux</p>
+<p>众所周知，Android系统底层是Linux内核<br>今天的主角叫做Termux</p>
 <blockquote>
 <p>Termux is a terminal emulator and Linux environment bringing powerful terminal access to Android.</p>
 </blockquote>
-<p>Termux 是运行在 Android 上的 terminal。不需要root，运行于内部存储（不在SD卡上）。<br>最重要的是，termux自带了一个包管理器，可以安装许多现代化的开发和系统维护工具。<br>许多在Linux系统上运行的程序都可以十分轻松的移植到termux里运行。你甚至可以在上面运行QEMU在上面运行Windows（有成熟的解决方案，不过很慢）。</p>
+<p>Termux 是运行在 Android 上的 terminal。不需要root，运行于内部存储（不在SD卡上）。<br>最重要的是，Termux自带了一个包管理器，可以安装许多现代化的开发和系统维护工具。<br>许多在Linux系统上运行的程序都可以十分轻松的移植到Termux里运行。你甚至可以在上面运行QEMU在上面运行Windows（不过很慢）。</p>
 <h2 id="安装Termux"><a href="#安装Termux" class="headerlink" title="安装Termux"></a>安装Termux</h2><p>Termux对系统的要求是Android 7.0及以上，在ARM以及X86设备上都可以运行<br>你可以<a target="_blank" rel="noopener" href="https://f-droid.org/packages/com.termux/" title="点击这里下载">点击这里下载</a></p>
 <p>因为种种原因<del>（为了榨干旧设备）</del>所以我决定在termux上编译运行xmrig来挖门罗币<br>原因：常见主流加密货币（例如比特币、以太坊）因为算法没有针对ASCI矿机进行抵制，从而导致大量算力集中在矿老板手中，个人挖矿收益极低<del>（简单来说就是你算力干不过人家）</del>。<br>而XMR的算法使普通设备也有了挖矿赚取收益的机会（虽然少，但是至少比其他币种可观）</p>
 <p>为了避免接下来遇到问题，先执行下<code>apt update &amp;&amp; apt upgrade</code></p>
@@ -401,7 +401,7 @@ constexpr const int kMinimumDonateLevel = 0;<span aria-hidden="true" class="line
 <h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>参考了<a target="_blank" rel="noopener" href="https://xmrig.com/docs/miner/build/ubuntu" title="xmrig官方的教程">xmrig官方的教程</a>并做了一点点修改<br>之所以采用了静态编译是为了减少出问题的几率，理论上动态编译也是可以的<br>可能需要科学上网</p>
 <pre class="line-numbers language-none"><code class="language-none">mkdir xmrig-C3/build &amp;&amp; cd xmrig-C3/scripts &amp;&amp; chmod +x *.sh &amp;&amp; ./build_deps.sh &amp;&amp; cd ../build &amp;&amp; cmake .. -DXMRIG_DEPS=scripts/deps &amp;&amp;  make -j$(nproc)
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>32位环境的ARM设备用这个</p>
+<p>32位环境的ARM设备(ARMv7)用这个</p>
 <pre class="line-numbers language-none"><code class="language-none">mkdir xmrig-C3/build &amp;&amp; cd xmrig-C3/scripts &amp;&amp; chmod +x *.sh &amp;&amp; ./build_deps.sh &amp;&amp; cd ../build &amp;&amp; cmake .. -DARM_TARGET=7 -DXMRIG_DEPS=scripts/deps &amp;&amp;  make -j$(nproc)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>耐心等待编译完成，编译出来的程序会被保存在xmrig-C3/build文件夹内</p>
 <h2 id="启动挖矿"><a href="#启动挖矿" class="headerlink" title="启动挖矿"></a>启动挖矿</h2><pre class="line-numbers language-none"><code class="language-none">./xmrig -o mine.c3pool.com:13333-u 钱包地址 -p 矿工名称 --randomx-1gb-pages<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -470,8 +470,8 @@ constexpr const int kMinimumDonateLevel = 0;<span aria-hidden="true" class="line
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/termux/">
-                                    <span class="chip bg-color">termux</span>
+                                <a href="/tags/Termux/">
+                                    <span class="chip bg-color">Termux</span>
                                 </a>
                             
                         </div>
@@ -618,8 +618,8 @@ constexpr const int kMinimumDonateLevel = 0;<span aria-hidden="true" class="line
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%98%E8%85%BEtermux/" class="post-category">
-                                    折腾termux
+                            <a href="/categories/%E6%8A%98%E8%85%BETermux/" class="post-category">
+                                    折腾Termux
                                 </a>
                             
                             
@@ -630,8 +630,8 @@ constexpr const int kMinimumDonateLevel = 0;<span aria-hidden="true" class="line
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/termux/">
-                        <span class="chip bg-color">termux</span>
+                    <a href="/tags/Termux/">
+                        <span class="chip bg-color">Termux</span>
                     </a>
                     
                 </div>
