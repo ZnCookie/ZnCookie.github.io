@@ -6,7 +6,7 @@
   <link href="https://zncookie.github.io/atom.xml" rel="self"/>
   
   <link href="https://zncookie.github.io/"/>
-  <updated>2021-10-25T13:37:14.138Z</updated>
+  <updated>2021-10-29T17:12:42.781Z</updated>
   <id>https://zncookie.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录一次不同码率下的有损音频编码测试</title>
+    <link href="https://zncookie.github.io/2021/10/30/ji-lu-yi-ci-bu-tong-ma-lu-xia-de-you-sun-yin-pin-bian-ma-ce-shi/"/>
+    <id>https://zncookie.github.io/2021/10/30/ji-lu-yi-ci-bu-tong-ma-lu-xia-de-you-sun-yin-pin-bian-ma-ce-shi/</id>
+    <published>2021-10-29T17:04:25.000Z</published>
+    <updated>2021-10-29T17:12:42.781Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近手机储存空间不够用了，就把一部分无损音乐压成了AAC&lt;br&gt;关于不同的有损音频编码格式压制出来的质量，网传条件相同情况下AAC音质最好&lt;br&gt;不过我还是决定自己亲自测试一些常见有损压缩音频编码</summary>
+        
+      
+    
+    
+    
+    <category term="音乐" scheme="https://zncookie.github.io/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="音乐" scheme="https://zncookie.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="MP3" scheme="https://zncookie.github.io/tags/MP3/"/>
+    
+    <category term="AAC" scheme="https://zncookie.github.io/tags/AAC/"/>
+    
+    <category term="OGG" scheme="https://zncookie.github.io/tags/OGG/"/>
+    
+    <category term="WMA" scheme="https://zncookie.github.io/tags/WMA/"/>
+    
+  </entry>
   
   <entry>
     <title>给你的旧电脑装上Windows 11——用Dism++绕开微软限制</title>
@@ -46,7 +79,7 @@
     <link href="https://zncookie.github.io/2021/10/23/guan-yu-wo-xian-zhao-mei-shi-zai-android-she-bei-shang-wa-kuang-de-zhe-dang-shi/"/>
     <id>https://zncookie.github.io/2021/10/23/guan-yu-wo-xian-zhao-mei-shi-zai-android-she-bei-shang-wa-kuang-de-zhe-dang-shi/</id>
     <published>2021-10-23T13:24:50.000Z</published>
-    <updated>2021-10-25T14:02:42.456Z</updated>
+    <updated>2021-10-29T17:10:43.801Z</updated>
     
     
       
@@ -62,7 +95,7 @@
     
     
     
-    <category term="折腾Termux" scheme="https://zncookie.github.io/categories/%E6%8A%98%E8%85%BETermux/"/>
+    <category term="Termux" scheme="https://zncookie.github.io/categories/Termux/"/>
     
     
     <category term="Termux" scheme="https://zncookie.github.io/tags/Termux/"/>
